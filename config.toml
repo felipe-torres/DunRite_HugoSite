@@ -262,9 +262,9 @@ theme = "hugo-elate-theme"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-home", "Av. Bonampak 28, SM4"],
+        ["icon-phone", "(+52) 998-310-2401"],
+        ["icon-envelope", "info@elitesports.mx"],
         ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
