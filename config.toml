@@ -181,9 +181,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Manuel Otheo"
       position = "Technical Director"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Be hungry, be humble and always trust the process."
       img = "ManuelToon.png"
-      alt = "Person1"
+      alt = "Manuel Otheo"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -193,9 +193,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Angel Revuelta"
       position = "Art Director "
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Me llaman el desaparecido, que cuando llega ya se ha ido. Volando vengo, volando voy. Deprisa, deprisa, rumbo perdido."
       img = "AngelToon.png"
-      alt = "Person2"
+      alt = "Angel Revuelta"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -205,9 +205,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Felipe Perugachi"
       position = "Gameplay Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Give me foods and I'll make games."
       img = "person3.jpg"
-      alt = "Person3"
+      alt = "Felipe Perugachi"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -217,9 +217,9 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Raúl Báez"
       position = "Backend Engineer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      description = "Always passionate of new technologies and always willing to learn more."
       img = "RaulToon.png"
-      alt = "Person3"
+      alt = "Raul Baez"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -270,14 +270,13 @@ theme = "hugo-elate-theme"
     map = true
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Would you like to reach us? Send us a message, we don't bite!"
 
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Av. Bonampak 28, SM4"],
         ["icon-phone", "(+52) 998-310-2401"],
         ["icon-envelope", "info@elitesports.mx"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
     name = "Name"
@@ -289,9 +288,9 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Elate Free HTML5. All Rights Reserved.'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-twitter", "https://twitter.com/dunritegames"],
+        ["icon-facebook", "https://www.facebook.com/dunritegames/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/dunritegames/"]
       ]
