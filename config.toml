@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/style5.css"]
 
   # Meta
   author = ""
@@ -179,10 +179,34 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
+      name = "Ricardo Velez"
+      position = "Founder"
+      description = "Be hungry, be humble and always trust the process."
+      img = "Ricardo.jpg"
+      alt = "Ricardo"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Jake"
+      position = "Founder"
+      description = "Be hungry, be humble and always trust the process."
+      img = "Jake.jpg"
+      alt = "Jake"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
       name = "Manuel Otheo"
       position = "Technical Director"
       description = "Be hungry, be humble and always trust the process."
-      img = "ManuelToon.png"
+      img = "Manuel.jpg"
       alt = "Manuel Otheo"
       social = [
         ["icon-twitter", "#"],
@@ -194,7 +218,7 @@ theme = "hugo-elate-theme"
       name = "Angel Revuelta"
       position = "Art Director "
       description = "Me llaman el desaparecido, que cuando llega ya se ha ido. Volando vengo, volando voy. Deprisa, deprisa, rumbo perdido."
-      img = "AngelToon.png"
+      img = "Angel.jpg"
       alt = "Angel Revuelta"
       social = [
         ["icon-twitter", "#"],
@@ -206,7 +230,7 @@ theme = "hugo-elate-theme"
       name = "Felipe Perugachi"
       position = "Gameplay Developer"
       description = "Give me foods and I'll make games."
-      img = "person3.jpg"
+      img = "Felipe.jpg"
       alt = "Felipe Perugachi"
       social = [
         ["icon-twitter", "#"],
@@ -218,7 +242,7 @@ theme = "hugo-elate-theme"
       name = "Raúl Báez"
       position = "Backend Engineer"
       description = "Always passionate of new technologies and always willing to learn more."
-      img = "RaulToon.png"
+      img = "Raul.jpg"
       alt = "Raul Baez"
       social = [
         ["icon-twitter", "#"],
