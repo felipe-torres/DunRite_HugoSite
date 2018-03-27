@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/style5.css"]
+  custom_css = ["css/style5.css", "css/custom.css"]
 
   # Meta
   author = ""
@@ -16,10 +16,10 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Dun Rite Games"
     home = "Home"
-    work = "Work"
+    work = "Workplace"
     testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    services = "Studio Perks"
+    about = "Team"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -46,29 +46,32 @@ theme = "hugo-elate-theme"
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
-  [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+    # mission = "Tired of waiting for mobile games that rival the blockbusters from game consoles? Fret no more, Dun Rite Games has arrived. Created by gamers for gamers!"
+    mission = "In Dun Rite Games, we want to make games that not only rival blockbusters, but that everybody can enjoy."
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+  # [[params.intro.item]]
+  #   title = "Plan"
+  #   description = "To develop games 'done right', ."
+  #   url = "#"
+  #   button = "Get In Touch"
+  #   icon = "icon-bulb"
+  #   img = "img_7.jpg"
 
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+  # [[params.intro.item]]
+  #   title = "Develop"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   url = "#"
+  #   button = "Click Me"
+  #   icon = "icon-wrench"
+  #   img = "img_8.jpg"
+
+  # [[params.intro.item]]
+  #   title = "Launch"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   url = "#"
+  #   button = "Why us?"
+  #   icon = "icon-rocket"
+  #   img = "img_10.jpg"
 
   [params.intro.video]
     enable = false
@@ -80,45 +83,45 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Workplace"
+    description = "We want nothing to stand on the way of creativity and quality and so, we strive to provide a stress-free environment where people can have fun while working, or working while having fun."
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "Workplace1.jpeg"
+      alt = "Workplace1"
+      title = "Sit-To-Stand Desks"
+      subtitle = "To work standing or sitting"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "Workplace2.jpeg"
+      alt = "Workplace2"
+      title = "Cutting-edge equipment"
+      subtitle = "Devices and software licenses"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "Workplace3.jpeg"
+      alt = "Workplace3"
+      title = "Gaming station"
+      subtitle = "Stress-relieving, rivalry-inducing"
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      img = "Workplace4.jpeg"
+      alt = "Workplace4"
+      title = "Paid gym subscription"
+      subtitle = "To a local, fully-equiped Gym"
 
     [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      img = "Workplace5.jpeg"
+      alt = "Beverages"
+      title = "Endless refreshments"
+      subtitle = "Don't forget to stay hydrated!"
 
     [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      img = "Workplace6.jpeg"
+      alt = "Beach"
+      title = "Close to world-famous beaches"
+      subtitle = "It's what Cancun is known for, after all"
 
   # Testimonials section
   [params.testimonials]
@@ -150,56 +153,63 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Studio Perks"
+    description = "We spoil our people, so they don't want to leave us. Ever :)"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Flexible working hours"
+      description = "We believe people"
+      icon = "icon-hourglass"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Attractive salaries"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      icon = "icon-wallet"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+    [[params.services.item]]
+      title = "Free Gym Membership"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+      icon = "icon-trophy"
+
+    [[params.services.item]]
+      title = "Free snacks and beverages"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-user-female"
+
+    [[params.services.item]]
+      title = "Maternity Leave"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-user-female"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Team"
+    description = "We are proud of the uniqueness of each person in our studio. And so, we look for highly independent and motivated people that love to create."
 
     [[params.about.item]]
       name = "Ricardo Velez"
       position = "Founder"
-      description = "Be hungry, be humble and always trust the process."
+      description = "Problem solver, curious engineer, dreaming up the future!"
       img = "Ricardo.jpg"
       alt = "Ricardo"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/ironbato/"],
+        ["icon-twitter", "https://twitter.com/iron_bato?lang=en"],
+        ["icon-globe", "http://ironbato.com"]
       ]
 
     [[params.about.item]]
-      name = "Jake"
+      name = "Jake Dobbins"
       position = "Founder"
       description = "Be hungry, be humble and always trust the process."
       img = "Jake.jpg"
       alt = "Jake"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://twitter.com/onehiveraids?lang=en"],
+        ["icon-youtube", "https://www.youtube.com/user/OneHiveRaids"],
+        ["icon-twitch", "https://www.twitch.tv/onehiveraids"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jake-dobbins-85babb152/"]
       ]
 
     [[params.about.item]]
@@ -209,21 +219,31 @@ theme = "hugo-elate-theme"
       img = "Manuel.jpg"
       alt = "Manuel Otheo"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-globe", "http://manuelotheo.com"],
+        ["icon-twitter", "https://twitter.com/lootheo"],
+        ["icon-linkedin", "https://www.linkedin.com/in/manuelotheo/"],
+        ["icon-github", "https://github.com/Lootheo"]
       ]
 
     [[params.about.item]]
       name = "Angel Revuelta"
       position = "Art Director "
-      description = "Me llaman el desaparecido, que cuando llega ya se ha ido. Volando vengo, volando voy. Deprisa, deprisa, rumbo perdido."
+      description = "Oh no, this is awkward."
       img = "Angel.jpg"
       alt = "Angel Revuelta"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-instagram", "https://www.instagram.com/angelrevbla/"],
+        ["icon-linkedin", "https://www.linkedin.com/in/angel-revuelta-32aaa869/"]
+      ]
+
+    [[params.about.item]]
+      name = "Jocelyn Castro"
+      position = "Animation and Copositing Artist"
+      description = "To build worlds that cut across platforms, and bring people together."
+      img = "Jocelyn.jpg"
+      alt = "Jocelyn Castro"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/jocelyn-castro-mercado-274955112/"]
       ]
 
     [[params.about.item]]
@@ -233,9 +253,11 @@ theme = "hugo-elate-theme"
       img = "Felipe.jpg"
       alt = "Felipe Perugachi"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-globe", "https://felipe-torres.github.io"],
+        ["icon-linkedin", "https://www.linkedin.com/in/lfelipetorres/"],
+        ["icon-twitter", "https://twitter.com/xipeluife"],
+        ["icon-instagram", "https://www.instagram.com/felipe.perugachi/"],
+        ["icon-github", "https://github.com/felipe-torres"]
       ]
 
     [[params.about.item]]
@@ -245,9 +267,7 @@ theme = "hugo-elate-theme"
       img = "Raul.jpg"
       alt = "Raul Baez"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-linkedin", "https://www.linkedin.com/in/raul-alejandro-baez-camarillo-b9970052/"]
       ]
 
   # Counters section
@@ -292,7 +312,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     map = true
-    form = true
+    form = "Contact"
     title = "Get in touch"
     description = "Would you like to reach us? Send us a message, we don't bite!"
 
@@ -312,7 +332,7 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved.'
+    copyright = '&copy; 2018 Dun Rite Games. Elate them Free HTML5. All Rights Reserved.'
     links = [
         ["icon-twitter", "https://twitter.com/dunritegames"],
         ["icon-facebook", "https://www.facebook.com/dunritegames/"],

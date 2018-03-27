@@ -1,0 +1,12 @@
+.employee {
+    margin-top: 50px;
+  }
+
+.mission {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2em;
+    /* width: 8em */
+}
