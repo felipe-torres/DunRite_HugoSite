@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "http://dunritegames.gg"
 title = "Dun Rite Games"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -9,9 +9,9 @@ theme = "hugo-elate-theme"
   custom_css = ["css/style5.css", "css/custom.css"]
 
   # Meta
-  author = ""
+  author = "felipe.torres@elitesports.mx"
   description = ""
-  email = ""
+  email = "info@elitesports.mx"
   # Navigation
   [params.navigation]
     brand = "Dun Rite Games"
@@ -47,7 +47,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
     # mission = "Tired of waiting for mobile games that rival the blockbusters from game consoles? Fret no more, Dun Rite Games has arrived. Created by gamers for gamers!"
-    mission = "In Dun Rite Games, we want to make games that not only rival blockbusters, but that everybody can enjoy."
+    mission = "We want to make games that tell in depth stories, driven by gameplay, that everybody can enjoy."
 
   # [[params.intro.item]]
   #   title = "Plan"
@@ -157,6 +157,16 @@ theme = "hugo-elate-theme"
     description = "We spoil our people, so they don't want to leave us. Ever :)"
 
     [[params.services.item]]
+      title = "Fun work environment"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-game-controller"
+    
+    [[params.services.item]]
+      title = "Learning resources"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-graduation"
+
+    [[params.services.item]]
       title = "Flexible working hours"
       description = "We believe people"
       icon = "icon-hourglass"
@@ -167,25 +177,43 @@ theme = "hugo-elate-theme"
       icon = "icon-wallet"
 
     [[params.services.item]]
-      title = "Free Gym Membership"
+      title = "Gym membership"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-trophy"
 
     [[params.services.item]]
       title = "Free snacks and beverages"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-cup"
+
+    [[params.services.item]]
+      title = "Maternity leave"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-user-female"
 
     [[params.services.item]]
-      title = "Maternity Leave"
+      title = "Relocation support"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-user-female"
+      icon = "icon-plane"
 
   # About section
   [params.about]
     enable = true
     title = "Team"
     description = "We are proud of the uniqueness of each person in our studio. And so, we look for highly independent and motivated people that love to create."
+
+    [[params.about.item]]
+      name = "Jake Dobbins"
+      position = "Founder"
+      description = "If you want something 'Dun Rite', do it yourself!"
+      img = "Jake.jpg"
+      alt = "Jake"
+      social = [
+        ["icon-twitter", "https://twitter.com/onehiveraids?lang=en"],
+        ["icon-youtube", "https://www.youtube.com/user/OneHiveRaids"],
+        ["icon-twitch", "https://www.twitch.tv/onehiveraids"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jake-dobbins-85babb152/"]
+      ]
 
     [[params.about.item]]
       name = "Ricardo Velez"
@@ -197,19 +225,6 @@ theme = "hugo-elate-theme"
         ["icon-linkedin", "https://www.linkedin.com/in/ironbato/"],
         ["icon-twitter", "https://twitter.com/iron_bato?lang=en"],
         ["icon-globe", "http://ironbato.com"]
-      ]
-
-    [[params.about.item]]
-      name = "Jake Dobbins"
-      position = "Founder"
-      description = "Be hungry, be humble and always trust the process."
-      img = "Jake.jpg"
-      alt = "Jake"
-      social = [
-        ["icon-twitter", "https://twitter.com/onehiveraids?lang=en"],
-        ["icon-youtube", "https://www.youtube.com/user/OneHiveRaids"],
-        ["icon-twitch", "https://www.twitch.tv/onehiveraids"],
-        ["icon-linkedin", "https://www.linkedin.com/in/jake-dobbins-85babb152/"]
       ]
 
     [[params.about.item]]
@@ -318,7 +333,7 @@ theme = "hugo-elate-theme"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Av. Bonampak 28, SM4"],
+        ["icon-home", "Cancún, Mexico"],
         ["icon-phone", "(+52) 998-310-2401"],
         ["icon-envelope", "info@elitesports.mx"],
       ]
@@ -332,7 +347,7 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; 2018 Dun Rite Games. Elate them Free HTML5. All Rights Reserved.'
+    copyright = '&copy; 2018 Dun Rite Games. Elate theme Free HTML5. All Rights Reserved.'
     links = [
         ["icon-twitter", "https://twitter.com/dunritegames"],
         ["icon-facebook", "https://www.facebook.com/dunritegames/"],
