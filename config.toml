@@ -223,8 +223,7 @@ theme = "hugo-elate-theme"
       alt = "Ricardo"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/ironbato/"],
-        ["icon-twitter", "https://twitter.com/iron_bato?lang=en"],
-        ["icon-globe", "http://ironbato.com"]
+        ["icon-twitter", "https://twitter.com/iron_bato?lang=en"]
       ]
 
     [[params.about.item]]
